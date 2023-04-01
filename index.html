@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Form</title>
+  <link rel="stylesheet" href="css/normalize.css">
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&display=swap">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter&display=swap">
+</head>
+<body>
+  <div class="form">
+    <form class="form-section" action="#" method="get">
+      <h1 class="form-section-title">Create an Account</h1>
+      <div class="form-section-name">
+        <div class="form-section-name-first">
+          <label for="FirstName" class="label">First Name</label>
+          <input class="form-section-name-first-inner" id="FirstName" type="text" name="name" placeholder="" required/>
+        </div>
+        <div class="form-section-name-last">
+          <label for="LastName" class="label">Last Name</label>
+          <input class="form-section-name-last-inner" id="LastName" type="text" name="name" placeholder="" required/>
+        </div>  
+      </div> 
+      <div class="form-section-email">   
+        <label for="Email" class="label">Email</label> 
+        <input class="form-section-email-inner" id="Email" type="text" name="email" placeholder="" required/>
+      </div>
+        <p class="form-section-text1">We'll never share your email with anyone else.</p>
+      <div class="form-section-gender"> 
+        <div class="form-section-gender-male"> 
+          <input class="input-male" id="GenderM" type="radio" name="gender"/>
+          <label for="GenderM" class="label">Male</label>
+        </div>
+        <div class="form-section-gender-female">
+          <input class="input-female" id="GenderF" type="radio" name="gender"/>
+          <label for="GenderF" class="label">Female</label>
+        </div>
+      </div> 
+      <div class="form-section-block">
+        <div class="form-section-block-country">
+          <label for="Country" class="label">Country</label>
+          <div class="block-select">  
+            <select name="text" class="select">
+              <option required disabled="disabled" selected="selected">Select</option>
+              <option value="1">...</option>
+            </select> 
+            <img class="arrow" src="img/Icon Color.svg" alt="Arrow">
+          </div>  
+        </div> 
+        <div class="form-section-block-city">
+          <label for="City" class="label">City</label>
+          <input id="City" type="text" name="name" placeholder="" class="form-section-block-city-item" required/>
+        </div>
+      </div> 
+      <div class="form-section-button">   
+        <button type="button" class="form-section-button-inner">Sign Up</button>
+      </div>
+      <p class="form-section-text2">By clicking the 'Sign Up' button, you confirm that you accept our <br/> <span style="color: #0078FF;">Terms of Use</span>
+            and <span style="color: #0078FF;">Privacy Policy</span></p>
+      <div class="form-section-line"></div>
+      <div class="form-section-text">
+        <p class="form-section-text3">Have an account?</p> 
+        <p class="form-section-text4"> <span style="color: #0078FF;">Log In</span></p>
+      </div>
+    </form>
+  </div>
+</body>
+</html>
+
+
+
+
+
+
