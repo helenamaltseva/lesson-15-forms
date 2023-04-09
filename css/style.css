@@ -137,7 +137,6 @@
 
   margin-left: 36px;
   margin-bottom: 20px;
-  cursor: pointer;
 }
 
 .form-section-gender-male {
@@ -150,12 +149,6 @@
   width: 62px;
 }
 
-.input-male {
-  display: inline;
-  align-items: center;
-  justify-content: space-between;
-}
-
 .form-section-gender-female {
   font-family: 'Roboto', sans-serif;
   font-style: normal;
@@ -166,10 +159,22 @@
   width: 78px; 
 }
 
-.input-female {
-  display: inline;
-  align-items: center;
-  justify-content: space-between;
+.input-arrow {
+  width: 20px;
+  height: 20px;
+  border: 1px solid #E4E4E4;
+  border-radius: 50%;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  outline: none;
+  cursor: pointer;
+
+  appearance: none;
+}
+
+.input-arrow:hover {
+  border: 6px solid #0078FF;
 }
 
 .form-section-block {
@@ -272,17 +277,45 @@
 }
 
 .form-section-text2 {
+  text-align: center;
+  margin-left: 81px;
+ 
+  width: 410px;
+  height: 36px;
+}
+
+.form-section-text2-inner {
+  display: inline;
+
   font-family: 'Roboto', sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 13px;
   line-height: 18px;
+}
 
-  width: 410px;
-  height: 36px;
+.form-section-text2-blue1 {
+  display: inline;
 
-  text-align: center;
-  margin-left: 81px;
+  font-family: 'Inter', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 13px;
+  line-height: 18px;
+
+  color: #0078FF;
+}
+
+.form-section-text2-blue2 {
+  display: inline;
+
+  font-family: 'Inter', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 13px;
+  line-height: 18px;
+  
+  color: #0078FF;
 }
 
 .form-section-line {
@@ -294,18 +327,24 @@
   margin-bottom: 20px;
 }
 
-.form-section-text {
-  width: 500px;
-  text-align: center;}
+.form-section-text3 {
+  font-family: 'Roboto', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 22px;
 
-.form-section-text {
   display: flex;
-  align-items: center;
   flex-direction: row;
+  align-items: center;
+  justify-content: center;
+
   gap: 20px;
+
+  margin-left: 196px;
+  margin-bottom: 16px;
 }
 
-.form-section-text3 {
+.form-section-text3-inner {
   font-family: 'Roboto', sans-serif;
   font-style: normal;
   font-weight: 400;
@@ -313,19 +352,16 @@
 
   width: 116px;
   height: 22px;
-
-  margin-left: 196px;
 }
 
-.form-section-text4 {
+.form-section-text3-blue3 {
   font-family: 'Roboto', sans-serif;
   font-style: normal;
   font-weight: 400;
-  font-size: 15px;
   line-height: 22px;
 
-  width: 42px;
+  width: 41px;
   height: 22px;
 
-  text-align: center;
+  color: #0078FF;
 }
